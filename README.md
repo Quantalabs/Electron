@@ -7,4 +7,4 @@ Quantum allows you to code in the canvas making your program easier and faster t
 
 # Credits
 
-A big thanks to [@quantum9innovation](github.com/quantum9innovation) for the idea of Zeno which then led on to Quantum
+A big thanks to [@quantum9innovation](https://github.com/quantum9innovation) for the idea of Zeno which then led on to Quantum
