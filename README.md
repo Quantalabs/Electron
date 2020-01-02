@@ -1,5 +1,5 @@
 # Quantum
-The Second Installment in the Zeno Series, a quick, easy-to-use canvas library
+The Second Installment in the Proton Series, a quick, easy-to-use canvas library
 
 # What is Quantum
 
