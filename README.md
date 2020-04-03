@@ -2,7 +2,9 @@
 The Second Installment in the Atom Series, a quick, easy-to-use canvas library
 
 # What is Electron
-Electron allows you to code in the canvas making your program easier and faster to code. It allows you to code canvas functions twice as fast like drawing a line with out all the hassel of writing beginPath(), stroke(),lineTo(), and moveTo(). Not only that but it has functions that aren't pre-built in the canvas like drawing fill/stroke triangles.  
+Electron is a JS Framework designed to make the canvas much easier. Normally, making a scene like the one below might take an hour or more, but Electron cuts it in half. With functions not already in the canvas, things like making a triangle in 6 lines to 1. Or making simple 3-d graphics like a pyramid or cube.
+
+![scene](https://www.google.com/url?sa=i&url=https%3A%2F%2Fthe-artifice.com%2Fworld-building-in-animation%2F&psig=AOvVaw1ewci7tb5CFASlEpvICwMX&ust=1586039692973000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDNiMiozegCFQAAAAAdAAAAABAJ)
 
 # Credits
 
