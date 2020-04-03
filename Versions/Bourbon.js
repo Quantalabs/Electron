@@ -1,11 +1,10 @@
-  var a = document.getElementById("canvas");
-    var ctx = a.getContext("2d");
+
     var line = function (x, y, x2, y2, cv) {
-  cv.beginPath();
-  cv.moveTo(x,y);
-  cv.lineTo(x2,y2);
-  cv.stroke();
-}
+      cv.beginPath();
+      cv.moveTo(x,y);
+      cv.lineTo(x2,y2);
+      cv.stroke();
+    }
     var fillTri = function (x1, y1, x2, y2, x3, y3, cv) {
       cv.beginPath();
       cv.moveTo(x1,y1);
