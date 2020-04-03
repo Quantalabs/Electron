@@ -24,18 +24,6 @@
     var erase = function (x,y,width,hieght,cv) {
       cv.clearRect(x,y,width,hieght);
     }
-    var shape = function (x, y, width, sides, cv) {
-        var a = sides/3;
-        var b = a * 3;
-        var c = b/sides;
-        cv.beginPath();
-        cv.moveTo(x,y);
-        cv.lineTo(x + width,y);
-        for(var i = 0; i < sides; i++) {
-            cv.lineTo(x + width*(i+1),c)
-        }
-        cv.fill();
-    }
     var pyramid = function (x, y, height, width, cv) {
       cv.beginPath();
       cv.moveTo(x,y);
@@ -127,7 +115,7 @@
         cv.shadowOffsetX = offsetX;
         cv.shadowOffsetY = offsetY;
     }
-    var fillText = function (x,y, text,size,font,cv) {
+    var fillText = function (x,y, text,size,cv) {
     cv.font = size;
     cv.strokeText(text, x, y); 
 }
