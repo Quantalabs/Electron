@@ -118,4 +118,9 @@
     var fillText = function (x,y, text,size,cv) {
     cv.font = size;
     cv.strokeText(text, x, y); 
-}
+    }
+    var ellipse = function (x,y,r,cv) {
+        cv.beginPath();
+        cv.arc(x, y, r, 0, 2 * Math.PI());
+        cv.fill();
+    }
