@@ -1,11 +1,125 @@
-# Electron
-The Second Installment in the Atom Series, a quick, easy-to-use canvas library
+![lamp logo](https://docs.google.com/drawings/d/e/2PACX-1vSGG9fMgwuYuQgja9d7B_9sghmC_LUdifg_aC_5SPQn5Ry7Rx5fV9P0sl3UNJ0ak2zUmJKR9AhgVv54/pub?w=960&h=720)
 
-# What is Electron
-Electron is a JS Framework designed to make the canvas much easier. Normally, making a scene like the one below might take an hour or more, but Electron cuts it in half. With functions not already in the canvas, things like making a triangle in 6 lines to 1. Or making simple 3-d graphics like a pyramid or cube.
+# What is Lamp
 
-![scene](https://the-artifice.com/wp-content/uploads/2013/12/animation-background-light-578x385.jpg)
+Creating graphics using the JS Canvas can be complicated and sometimes take long. Lamp allows you to make graphics as quick as a fox. With shadows, gradients, normal 2d (and even 3d!) 
+shapes, it makes canvas graphics as easy as pie.
+
+Lamp can do:
+
+  - 3d
+ 	  - pyramids
+  - 2d
+      - lines
+	  - triangles
+	  - circles
+	  - text
+  - other
+	  - shadows
+	  - gradients
+	  - erasing
+	
+# Documentation
+
+## Canvas
+
+First in `html` create the `<canvas>` tag.
+
+	<canvas id="canvas" width="400" height="400"></canvas>
+	
+Now, in JS, create a variable for the canvas.
+
+	var c = document.getElementById('canvas')
+	var ctx = c.getContext('2d')
+	
+And you're done. Now, you can get on to drawing.
+
+## 2d Shapes
+
+### Lines
+
+Use the `line()` function to create lines.
+
+	line(x, y, x2,y2, cv)
+
+The `cv` parameter is the canvas variable, or `ctx`, that we created earlier. This will be used in all of the functions.
+
+### Triangles
+
+#### Stroke Triangles
+
+To make a triangle with no fill, use the `strokeTri()` function.
+
+	strokeTri(x1, y1, x2, y2, x3, y3, cv)
+	
+#### Fill Triangles
+
+To make a triangle with a fill, use the `fillTri()` function.
+
+	fillTri(x1, y1, x2, y2, x3, y3, cv)
+
+### Circles/Ovals
+
+#### Fill Ellipses
+
+To create a filled ellipse, use `fillEllipse()`.
+
+	fillEllipse(x, y, r, cv)
+	
+`x` and `y` are the center of the circle and `r` is the raidius.
+
+#### Stroke Ellipses
+
+To create a ellipse with no fill, use `strokeEllipse()`.
+
+	strokeEllipse(x, y, r, cv)
+	
+### Text
+
+To create text, use `text()`.
+
+	text(x, y, text, cv)
+
+Make sure `text` is a string.
+
+## 3d Graphics
+	
+### Pyramids
+
+To create a pyramid, use `pyramid()`.
+
+	pyramid(x, y, height, width, cv)
+	
+## Other
+
+### Gradients
+
+For gradients, use `gradients()`.
+
+	graidents(color1, color2, x, y, width, height, cv)
+
+`color1` and `color2` are both string values.
+
+### Shadows
+
+For shadows, use `shadow()`.
+
+	shadow(color, blue, offsetX, offsetY, cv)
+
+`color` is a string value.
+
+### Erasing
+
+To erase, use `erase()`.
+
+	erase(x, y, width, height, cv)
+	
+## That's IT!
+
+You now know *lamp*.
+
+
 
 # Credits
 
-A big thanks to [@quantum9innovation](https://github.com/quantum9innovation) for the idea of Proton which then led on to Electron
+[@q9i](https://github.com/quantum9innovation)
