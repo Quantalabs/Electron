@@ -54,9 +54,8 @@ var shadow = function (color,blur,offsetX,offsetY,cv) {
     cv.shadowOffsetX = offsetX;
     cv.shadowOffsetY = offsetY;
 }
-var fillText = function (x,y, text,font,cv) {
-    cv.font = font;
-    cv.strokeText(text, x, y); 
+var text = function (x, y, text, cv) {
+    cv.fillText(text, x, y); 
 }
 var fillEllipse = function (x,y,r,cv) {
   cv.beginPath();
