@@ -40,6 +40,10 @@ Create a `<script>` tag like this:
 
 	<script src="https://cdn.jsdelivr.net/gh/quantalabs/lamp/index.js"></script>
 
+or
+	
+	<script src="https://cdn.jsdelivr.net/npm/@qlabs/lamp@1.0.0/index.js"></script>
+
 This imports the library to your code and enables you to use it.
 
 ## 2d Shapes
