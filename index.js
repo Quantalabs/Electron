@@ -23,18 +23,6 @@ var strokeTri = function (x1, y1, x2, y2, x3, y3, cv) {
 var erase = function (x,y,width,hieght,cv) {
   cv.clearRect(x,y,width,hieght);
 }
-var shape = function (x, y, width, sides, cv) {
-    var a = sides/3;
-    var b = a * 3;
-    var c = b/sides;
-    cv.beginPath();
-    cv.moveTo(x,y);
-    cv.lineTo(x + width,y);
-    for(var i = 0; i < sides; i++) {
-        cv.lineTo(x + width*(i+1),c)
-    }
-    cv.fill();
-}
 var pyramid = function (x, y, height, width, cv) {
   cv.beginPath();
   cv.moveTo(x,y);
