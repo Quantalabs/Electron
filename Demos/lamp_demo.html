@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lamp Demo</title>
+    </head>
+    <body>
+        <canvas id="c">
+            Sorry!
+            Your browser doesn't support the canvas. Use or get a different
+            browser to preview the demo.
+        </canvas>
+    </body>
+    <script src="https://cdn.jsdelivr.net/gh/quantalabs/lamp/index.js"></script>
+    <script>
+        var cv = document.getElementById("c")
+        var c = cv.getContext("2d")
+
+        c.width = window.innerWidth/2
+        c.height = window.innerHeight/2
+    </script>
+</html>
