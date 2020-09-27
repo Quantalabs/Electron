@@ -106,13 +106,15 @@ For shadows, use `shadow()`.
 To erase, use `erase()`.
 
 	erase(x, y, width, height)
-	
+
+You can also use `clear()` to clear the whole canvas.
+
+	clear()
+
 ## That's IT!
 
 You now know *lamp*.
 
-
-
 # Credits
 
-[@q9i](https://github.com/quantum9innovation)
+ - [@q9i](https://github.com/quantum9innovation)

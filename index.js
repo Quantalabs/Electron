@@ -1,8 +1,9 @@
-var c = document.createElement("canvas")
-c.id = "c"
-c.width = width
-c.height = height
-c.appendChild()
+var cd = document.createElement("canvas")
+cd.id = "c"
+cd.width = width
+cd.height = height
+cd.appendChild()
+var c = c.getContext("2d")
 
 var line = function (x, y, x2, y2) {
   c.beginPath();
@@ -72,4 +73,7 @@ var strokeEllipse = function (x,y,r) {
   c.beginPath();
   c.arc(x,y,r,0,2);
   c.stroke();
+}
+var clear = function () {
+  c.clearRect(0, 0, cd.width, cd.height)
 }
