@@ -21,19 +21,6 @@ Lamp can do:
 	
 # Documentation
 
-## Canvas
-
-First in `html` create the `<canvas>` tag.
-
-	<canvas id="canvas" width="400" height="400"></canvas>
-	
-Now, in JS, create a variable for the canvas.
-
-	var c = document.getElementById('canvas')
-	var ctx = c.getContext('2d')
-	
-And you're done. Now, you can get on to drawing.
-
 ## Importing Lamp
 
 Create a `<script>` tag like this:
@@ -48,9 +35,7 @@ This imports the library to your code and enables you to use it.
 
 Use the `line()` function to create lines.
 
-	line(x, y, x2,y2, cv)
-
-The `cv` parameter is the canvas variable, or `ctx`, that we created earlier. This will be used in all of the functions.
+	line(x, y, x2,y2)
 
 ### Triangles
 
@@ -58,13 +43,13 @@ The `cv` parameter is the canvas variable, or `ctx`, that we created earlier. Th
 
 To make a triangle with no fill, use the `strokeTri()` function.
 
-	strokeTri(x1, y1, x2, y2, x3, y3, cv)
+	strokeTri(x1, y1, x2, y2, x3, y3)
 	
 #### Fill Triangles
 
 To make a triangle with a fill, use the `fillTri()` function.
 
-	fillTri(x1, y1, x2, y2, x3, y3, cv)
+	fillTri(x1, y1, x2, y2, x3, y3)
 
 ### Circles/Ovals
 
@@ -72,7 +57,7 @@ To make a triangle with a fill, use the `fillTri()` function.
 
 To create a filled ellipse, use `fillEllipse()`.
 
-	fillEllipse(x, y, r, cv)
+	fillEllipse(x, y, r)
 	
 `x` and `y` are the center of the circle and `r` is the raidius.
 
@@ -80,13 +65,13 @@ To create a filled ellipse, use `fillEllipse()`.
 
 To create a ellipse with no fill, use `strokeEllipse()`.
 
-	strokeEllipse(x, y, r, cv)
+	strokeEllipse(x, y, r)
 	
 ### Text
 
 To create text, use `text()`.
 
-	text(x, y, text, cv)
+	text(x, y, text)
 
 Make sure `text` is a string.
 
@@ -96,7 +81,7 @@ Make sure `text` is a string.
 
 To create a pyramid, use `pyramid()`.
 
-	pyramid(x, y, height, width, cv)
+	pyramid(x, y, height, width)
 	
 ## Other
 
@@ -104,7 +89,7 @@ To create a pyramid, use `pyramid()`.
 
 For gradients, use `gradients()`.
 
-	graidents(color1, color2, x, y, width, height, cv)
+	graidents(color1, color2, x, y, width, height)
 
 `color1` and `color2` are both string values.
 
@@ -112,7 +97,7 @@ For gradients, use `gradients()`.
 
 For shadows, use `shadow()`.
 
-	shadow(color, blue, offsetX, offsetY, cv)
+	shadow(color, blue, offsetX, offsetY)
 
 `color` is a string value.
 
@@ -120,7 +105,7 @@ For shadows, use `shadow()`.
 
 To erase, use `erase()`.
 
-	erase(x, y, width, height, cv)
+	erase(x, y, width, height)
 	
 ## That's IT!
 
