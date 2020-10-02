@@ -2,7 +2,7 @@ var cd = document.createElement("canvas")
 cd.id = "c"
 cd.width = 1000
 cd.height = 1000
-cd.appendChild()
+document.body.appendChild(cd)
 var c = c.getContext("2d")
 
 var line = function (x, y, x2, y2) {
