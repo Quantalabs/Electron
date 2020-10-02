@@ -1,7 +1,7 @@
 var cd = document.createElement("canvas")
 cd.id = "c"
-cd.width = width
-cd.height = height
+cd.width = 1000
+cd.height = 1000
 cd.appendChild()
 var c = c.getContext("2d")
 
