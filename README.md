@@ -25,7 +25,7 @@ Lamp can do:
 
 Create a `<script>` tag like this:
 
-	<script src="https://cdn.jsdelivr.net/gh/quantalabs/lamp@v1.1.1/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/quantalabs/lamp@v1.1.2/index.js"></script>
 
 This imports the library to your code and enables you to use it.
 
