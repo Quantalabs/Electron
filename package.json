@@ -1,18 +1,18 @@
 {
   "name": "@qlabs/lamp",
   "version": "1.1.2",
-  "description": "A Simple, Lightweight, JS Canvas Library",
+  "description": "A JS Graphics Package",
   "main": "index.js",
   "scripts": {
-    "test": "Tests/lamp_test.html"
+    "test": "none"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Quantalabs/Lamp.git"
   },
   "keywords": [
-    "graphics",
-    "drawing"
+    "drawing",
+    "graphics"
   ],
   "author": "qlabs",
   "license": "GPL-3.0",
