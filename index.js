@@ -1,9 +1,9 @@
 var cd = document.createElement("canvas")
 cd.id = "c"
-cd.width = width
-cd.height = height
-cd.appendChild()
-var c = c.getContext("2d")
+cd.width = 1000
+cd.height = 1000
+document.body.appendChild(cd)
+var c = cd.getContext("2d")
 
 var line = function (x, y, x2, y2) {
   c.beginPath();
