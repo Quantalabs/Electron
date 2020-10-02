@@ -1,7 +1,7 @@
 {
   "name": "@qlabs/lamp",
   "version": "1.1.2",
-  "description": "A JS Graphics Library",
+  "description": "A Simple, Lightweight, JS Canvas Library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "graphics",
     "drawing"
   ],
-  "author": "Quantalabs",
+  "author": "qlabs",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/Quantalabs/Lamp/issues"
