@@ -29,10 +29,6 @@ Create a `<script>` tag like this:
 
 	<script src="https://cdn.jsdelivr.net/gh/quantalabs/lamp@v1.1.2/index.js"></script>
 
-This imports the library to your code and enables you to use it.
-
-	var lamp = require('lamp')
-
 ## 2d Shapes
 
 ### Lines
