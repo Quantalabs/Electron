@@ -11,9 +11,6 @@
     "drawing",
     "graphics"
   ],
-  "scripts": {
-    "test": "jest --coverage"
-  },
   "author": "qlabs",
   "license": "GPL-3.0",
   "bugs": {
