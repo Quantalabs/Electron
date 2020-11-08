@@ -2,6 +2,7 @@
 [![downloads](https://img.shields.io/npm/dt/@qlabs/lamp.svg)](https://npmjs.com/package/@qlabs/lamp)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/Quantalabs/Lamp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Quantalabs/Lamp/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Quantalabs/Lamp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Quantalabs/Lamp/context:javascript)
+[![Node.js CI](https://github.com/Quantalabs/Lamp/workflows/Node.js%20CI/badge.svg)](https://github.com/Quantalabs/Lamp/actions?query=workflow%3A%22Node.js+CI%22)
 # What is Lamp
 
 Creating graphics using the JS Canvas can be complicated and sometimes take long. Lamp allows you to make graphics as quick as a fox. With shadows, gradients, normal 2d (and even 3d!) 
