@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Quantalabs/Lamp/issues"
   },
-  "homepage": "https://github.com/Quantalabs/Lamp#readme"
+  "homepage": "https://github.com/Quantalabs/Lamp#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
