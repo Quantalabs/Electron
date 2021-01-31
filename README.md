@@ -107,6 +107,10 @@ To erase, use `erase()`.
 
 	erase(x, y, width, height)
 
+or use the `cleararea()` function:
+
+	cleararea(x1, y1, width, height)
+
 You can also use `clear()` to clear the whole canvas.
 
 	clear()
