@@ -1,3 +1,5 @@
+> This project fully works, but will no longer be worked on. The package can still be installed through npm but no new releases will be published.
+
 ![lamp logo](https://docs.google.com/drawings/d/e/2PACX-1vSGG9fMgwuYuQgja9d7B_9sghmC_LUdifg_aC_5SPQn5Ry7Rx5fV9P0sl3UNJ0ak2zUmJKR9AhgVv54/pub?w=960&h=720)
 [![downloads](https://img.shields.io/npm/dt/@qlabs/lamp.svg)](https://npmjs.com/package/@qlabs/lamp)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/Quantalabs/Lamp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Quantalabs/Lamp/alerts/)
@@ -107,10 +109,6 @@ For shadows, use `shadow()`.
 To erase, use `erase()`.
 
 	erase(x, y, width, height)
-
-or use the `cleararea()` function:
-
-	cleararea(x1, y1, width, height)
 
 You can also use `clear()` to clear the whole canvas.
 
