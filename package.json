@@ -1,6 +1,6 @@
 {
   "name": "@qlabs/lamp",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A JS Graphics Package",
   "main": "index.js",
   "repository": {

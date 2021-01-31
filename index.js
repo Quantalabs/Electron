@@ -77,3 +77,6 @@ var strokeEllipse = function (x,y,r) {
 var clear = function () {
   c.clearRect(0, 0, cd.width, cd.height)
 }
+var cleararea = function (x1, y1, x2, y2) {
+  c.clearRect(x1, y1, x2, y2)
+}
